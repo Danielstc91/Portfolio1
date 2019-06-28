@@ -3,7 +3,10 @@ $text-primary-color: rgba(81, 229, 248, 0.966);
 $text-secondary-color: rgba(105, 22, 238, 0.938);
 $show-home-image: true;
 //.. to find correct directory
-$home-image: url(../dist/img/background.jpg);
+//$home-image: url(../dist/img/background.jpg);
+//jekyll liquid tags
+
+$home-image: {{site.baseurl}}/dist/img/background.jpg;
 
 $background-opacity: 0.6;
 

@@ -2,9 +2,11 @@ $primary-color: #424d57;
 $text-primary-color: rgba(81, 229, 248, 0.966);
 $text-secondary-color: rgba(105, 22, 238, 0.938);
 $show-home-image: true;
-<<<<<<< HEAD
-$MainUrl: url(https://danielstc91.github.io/Portfolio/) ;
-$home-image: url(./Portfolio/dist/img/background.jpg);
+
+
+
+$MainUrl: url({{site.baseurl}}/dist/img/background.jpg) ;
+//$home-image: url(./Portfolio/dist/img/background.jpg);
 =======
 //.. to find correct directory
 //$home-image: url(../dist/img/background.jpg);

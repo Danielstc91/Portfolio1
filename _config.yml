@@ -1,2 +1,3 @@
 title: "Todd Daniels"
 baseurl: "/Portfolio"
+exclude: ['README.md'];

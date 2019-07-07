@@ -5,9 +5,8 @@ $show-home-image: true;
 
 
 
-$MainUrl: url({{site.baseurl}}/dist/img/background.jpg) ;
+$MainUrl: url(./dist/img/background.jpg) ;
 //$home-image: url(./Portfolio/dist/img/background.jpg);
-=======
 //.. to find correct directory
 //$home-image: url(../dist/img/background.jpg);
 //jekyll liquid tags

@@ -7,7 +7,7 @@ $show-home-image: true;
 
 //$MainUrl: url( {{site.baseurl}}/dist/img/background.jpg) ;
 
-$home-image: url(../dist/img/background.jpg);
+$home-image: url(/dist/img/background.jpg);
 
 
 $background-opacity: 0.6;
@@ -22,6 +22,7 @@ $background-opacity: 0.6;
    @if $show-home-image{
         &#bg-img{
             background: $home-image;
+            
             background-attachment: fixed;
             background-size: cover;
             

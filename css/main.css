@@ -1,0 +1,115 @@
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  left: 40px;
+  top: 40px;
+  cursor: pointer;
+  transition: all 0.25s ease-out; }
+  .menu-btn .btn-line {
+    width: 30px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: rgba(81, 229, 248, 0.966);
+    transition: all 0.25s ease-out; }
+  .menu-btn.close {
+    transition: all 0.25s ease-out; }
+    .menu-btn.close .btn-line:nth-child(1) {
+      opacity: 0.8; }
+    .menu-btn.close .btn-line:nth-child(2) {
+      transform: translateY(15vh);
+      opacity: 0.1; }
+    .menu-btn.close .btn-line:nth-child(3) {
+      transform: translateY(30vh);
+      opacity: 0.1; }
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.5;
+  visibility: hidden; }
+  .menu.show {
+    visibility: visible; }
+  .menu-nav {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 30%;
+    height: 100vh;
+    overflow: hidden;
+    background: #424d57; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #424d57;
+  color: rgba(81, 229, 248, 0.966);
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5; }
+  body#bg-img {
+    background: url(./Portfolio/dist/img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover; }
+    body#bg-img:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: rgba(66, 77, 87, 0.6); }
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400; }
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 6rem; }
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
+    margin-bottom: 2rem;
+    padding: .2rem .2rem;
+    background: rgba(70, 82, 93, 0.5); }
+  h1.show,
+  h2.show,
+  h3.show {
+    text-align: center; }
+
+a {
+  color: rgba(81, 229, 248, 0.966);
+  text-decoration: none; }
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%; }
+
+.text-secondary {
+  color: rgba(105, 22, 238, 0.938); }
+
+main {
+  padding: 4rem;
+  height: 100%; }
+  main .icons {
+    margin-top: 1rem; }
+    main .icons a {
+      padding: 0.4rem; }
+      main .icons a:hover {
+        color: rgba(105, 22, 238, 0.938);
+        transition: all 0.25s ease-out; }
+    main .icons.show {
+      text-align: center; }
+  main#home {
+    overflow: hidden; }
+    main#home h1 {
+      margin-top: 20vh; }
